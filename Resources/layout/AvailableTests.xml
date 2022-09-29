@@ -1,0 +1,56 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9">
+
+    <TextView
+        android:text="Available tests:"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center_horizontal"
+        android:id="@+id/studentNameView" 
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+       <ListView 
+            android:id="@+id/testsListView" 
+            android:layout_height="wrap_content" 
+            android:layout_width="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:drawable/menu_full_frame"
+        android:backgroundTint="#00ced1">
+
+        <Button
+            android:text="Return to menu"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#696969"
+            android:drawableLeft="@android:drawable/ic_menu_revert"
+            android:textAllCaps="false"
+            android:background="@android:drawable/btn_default"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/buttonBackAvailableTests" />
+
+    </LinearLayout>
+</LinearLayout>

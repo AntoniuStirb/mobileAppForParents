@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9">
+
+    <TextView
+        android:text="Add a new question"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:id="@+id/text1" />
+
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:id="@+id/questionNumber" />
+
+  
+
+    <TextView
+      android:text="Question"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text2" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Add a new question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question" />
+
+     <TextView
+      android:text="Answer 1"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text3" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter answer 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Answer1" />
+
+    <TextView
+      android:text="Answer 2"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text4" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter answer 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Answer2" />
+
+    <TextView
+      android:text="Answer 3"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text5" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter answer 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Answer3" />
+
+    <TextView
+      android:text="Answer 4"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text6" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter answer 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Answer4" />
+
+    <TextView
+      android:text="Correct answer"
+      android:layout_marginLeft="10dp"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text7" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:hint="Enter the correct answer (1,2,3,4)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/correctAnswer" />
+
+    <Button
+        android:text="Next"
+        android:background="@android:drawable/btn_default"
+        android:drawableLeft="@android:drawable/ic_menu_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/nextQuestion" />
+    
+
+
+</LinearLayout>

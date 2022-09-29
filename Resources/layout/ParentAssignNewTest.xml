@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9">
+
+    <TextView
+        android:text="Please choose between one of the following subjects"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="26sp"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="Press then next to continue"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView2" />
+
+    <RelativeLayout
+        android:background="@android:drawable/menu_full_frame"
+        android:backgroundTint="#696969"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="4dp">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:background="#00ced1"
+            android:layout_above="@+id/view_below">
+
+
+            <RadioButton
+                android:text="Mathematics"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#ff535353"
+                android:layout_height="wrap_content"
+                android:id="@+id/mathRadioButton" />
+
+            <RadioButton
+                android:text="History"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#ff535353"
+                android:layout_height="match_parent"
+                android:id="@+id/historyRadioButton" />
+
+            <RadioButton
+                android:text="Geography"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#ff535353"
+                android:layout_height="wrap_content"
+                android:id="@+id/geographyRadioButton" />
+
+            <RadioButton
+                android:text="Grammar"
+                android:layout_width="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#ff535353"
+                android:layout_height="wrap_content"
+                android:id="@+id/grammarRadionButton" />
+
+
+        </RadioGroup>
+    </RelativeLayout>
+    
+
+    
+       <LinearLayout
+            
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout10">
+            <Button
+                android:text="Next step"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:background="@android:drawable/btn_default_small"
+                android:drawableLeft="@android:drawable/ic_menu_send"
+                android:layout_height="wrap_content"
+                android:textColor="#ff535353"
+                android:id="@+id/buttonNextAddNewTest" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="Back to parent menu"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:background="@android:drawable/btn_default_small"
+                android:drawableLeft="@android:drawable/ic_menu_revert"
+                android:layout_height="wrap_content"
+                android:textColor="#ff535353"
+                android:id="@+id/buttonBackAssignNewTest" />
+
+        </LinearLayout>
+   
+
+
+
+</LinearLayout>

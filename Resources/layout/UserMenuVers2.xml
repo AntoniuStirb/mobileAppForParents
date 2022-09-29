@@ -1,0 +1,101 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Child Quiz app!"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="#00ced1"
+        android:textColor="#ff535353"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView  
+         android:id="@+id/imageView"  
+         android:layout_width="100dp"  
+         android:layout_height="100dp" 
+         android:layout_marginTop="170dp"
+         android:layout_centerHorizontal="true"
+         android:src="@android:drawable/sym_def_app_icon"  />
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center_horizontal"
+        android:text="Please choose your option:"
+        android:elegantTextHeight="true"
+        android:textColor="#ff535353"
+        android:backgroundTint="#00ced1"
+        android:background="@drawable/abc_text_select_handle_middle_mtrl_dark"
+        android:textSize="29sp"
+        android:elevation="4dp" />
+
+    <RelativeLayout
+        android:background="@android:drawable/edit_text"
+        android:backgroundTint="#00ced1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:layout_margin="22dp"
+                android:background="@android:drawable/btn_default_small"
+                
+                android:translationZ="10dp"
+                android:text="Student"
+                android:id="@+id/studentBtn"
+                android:textAllCaps="false"
+                android:textColor="#ff535353"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:layout_margin="22dp"
+                android:background="@android:drawable/btn_default_small"
+                android:text="Parent"
+                android:id="@+id/parentBtn"
+                android:textAllCaps="false"
+                android:textColor="#ff535353"
+                android:translationZ="10dp"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
